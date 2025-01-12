@@ -1,0 +1,46 @@
+{
+    "settings": {
+        "title": "Einstellungen",
+        "darkMode": "Dark mode",
+        "language": "Sprachen",
+        "close": "Schließen",
+        "cancel": "Abbrechen"
+    },
+    "weather": {
+        "temperature": "Temperatur",
+        "windSpeed": "Wind Geschwindigkeit",
+        "humidity": "Luftfeuchtigkeit",
+        "score": "Bewertung: %d%%",
+        "error": "Fehler",
+        "errorDetails": {
+            "title": "Wetterdaten Fehler",
+            "message": "Für diesen Tag können keine vollständigen Wetterdaten abgerufen werden. Dies kann auf ein Verbindungsproblem oder nicht verfügbare Daten des Wetterdienstes zurückzuführen sein",
+            "reddit": "Bitte erzähl mir über den Fehler auf Reddit unter:",
+            "subreddit": "r/BikeDay"
+        }
+    },
+    "details": {
+        "additionalDetails": "Zusätzliche Infos",
+        "rainChance": "Regen Warscheinlichkeit",
+        "snowChance": "Schnee Warscheinlichkeit",
+        "uvIndex": "UV Index",
+        "visibility": "Sichtbarkeit",
+        "sunrise": "Sonnenaufgang",
+        "sunset": "Sonnenuntergang"
+    },
+    "info": {
+        "temperature": {
+            "title": "Temperatur",
+            "description": "Die Temperatur beeinflusst, wie angenehm deine Fahrt sein wird. Ideale Radtemperaturen liegen zwischen 15 und 25 °C. Temperaturen außerhalb dieses Bereichs verschlechtern die Bewertung des Tages.
+"
+        },
+        "wind": {
+            "title": "Wind Geschwindigkeit",
+            "description": "Die Windgeschwindigkeit kann das Radfahren schwieriger machen. Ideale Bedingungen liegen unter 3 m/s. Starke Winde (>8 m/s) senken die Bewertung des Tages deutlich."
+        },
+        "humidity": {
+            "title": "Luftfeuchtigkeit",
+            "description": "Die Luftfeuchtigkeit beeinflusst, wie angenehm sich die Temperatur anfühlt. Die ideale Luftfeuchtigkeit liegt zwischen 30 und 60 %. Hohe Luftfeuchtigkeit lässt warme Tage heißer erscheinen und kann das Radfahren anstrengender machen."
+        }
+    }
+}
