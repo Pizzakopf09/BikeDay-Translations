@@ -11,7 +11,13 @@
         "windSpeed": "Wind Speed",
         "humidity": "Humidity",
         "score": "Score: %d%%",
-        "error": "Error"
+        "error": "Error",
+        "errorDetails": {
+            "title": "Weather Data Error",
+            "message": "Unable to retrieve complete weather data for this day. This might be due to a connection issue or unavailable data from the weather service.",
+            "reddit": "Please tell me about the error on Reddit in",
+            "subreddit": "r/BikeDay"
+        }
     },
     "details": {
         "additionalDetails": "Additional Details",
@@ -19,19 +25,21 @@
         "snowChance": "Snow Chance",
         "uvIndex": "UV Index",
         "visibility": "Visibility",
-        "airQuality": "Air Quality",
         "sunrise": "Sunrise",
         "sunset": "Sunset"
     },
-    "dialogs": {
-        "tempInfo": "The temperature affects how comfortable your ride will be. Ideal cycling temperatures are between 15-25°C. Temperatures outside this range will lower the biking score.",
-        "windInfo": "Wind speed can make cycling more challenging. Ideal conditions are below 3 m/s. Strong winds (>8 m/s) significantly lower the biking score.",
-        "humidityInfo": "Humidity affects how comfortable the temperature feels. Ideal humidity is between 30-60%. High humidity makes warm days feel hotter and can make cycling more strenuous.",
-        "weatherError": {
-            "title": "Weather Data Error",
-            "message": "Unable to retrieve complete weather data for this day. This might be due to a connection issue or unavailable data from the weather service.",
-            "reddit": "Please tell me about the error on Reddit in",
-            "subreddit": "r/BikeDay"
+    "info": {
+        "temperature": {
+            "title": "Temperature",
+            "description": "The temperature affects how comfortable your ride will be. Ideal cycling temperatures are between 15-25°C. Temperatures outside this range will lower the biking score."
+        },
+        "wind": {
+            "title": "Wind Speed",
+            "description": "Wind speed can make cycling more challenging. Ideal conditions are below 3 m/s. Strong winds (>8 m/s) significantly lower the biking score."
+        },
+        "humidity": {
+            "title": "Humidity",
+            "description": "Humidity affects how comfortable the temperature feels. Ideal humidity is between 30-60%. High humidity makes warm days feel hotter and can make cycling more strenuous."
         }
     }
 }
